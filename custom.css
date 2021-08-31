@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+*,
+
+/* use "shadow-none" class to disable the blue corner outline from bootsrap */
+
+*:focus {
+  outline: none !important;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+a{
+  text-decoration:  none !important;
+  color: transparent !important;
+}
+.opacity-1 {
+  opacity:0.2!important;
+}
+.opacity-2 {
+  opacity:0.4!important;
+}
+.card img{
+  object-fit: contain;
+}
+.card a:nth-child(3):hover{
+  opacity: 0.5;
+}
+.card-text{
+  color: white;
+}
+#historic{
+  font-family: 'Old Standard TT', serif;
+}
+#modern{
+  font-family: 'B612', sans-serif;
+}
+#contemporary{
+  font-family: 'Alegreya', serif;
+}
+#decoration-bar{        
+    visibility: hidden;
+  } 
+  #navbar-mobile{
+    visibility: hidden;
+  }
+#info-text p:hover{
+  opacity: 0.4!important;
+}
+/* three carousel media */
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+  
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+  #alert{
+    display: none;
+  }
+  .carousel-item > .w-50{
+    width: 25%!important;
+  }
+
+  .text-truncate{
+    white-space: initial!important;
+  }
+  
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  
+  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+transform: translateX(0);
+}
+/* three carousel media */
+
+
+/* media queries */
+@media (min-width: 992px) {
+  #footer{
+    visibility: hidden;
+  }
+}
+@media (max-width: 1400px){
+  #navbar-mobile{
+    visibility: initial;
+  }
+}
+@media (min-width: 1400px){
+  #decoration-bar{
+    visibility: initial;
+  }
+}

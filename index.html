@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1 - Champions</title>
+    <link rel="icon" type="image/png" href="images/uploads_formula_1_formula_1_PNG15.png" />
+    <link rel="stylesheet" href="custom.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body style="background-color: rgb(148, 148, 148)">
+    <section>
+        <div class="container ps-0 pe-0 position-relative"
+            style="background-color: #949494; height: 100vh; overflow: hidden">
+            <div class="row h-100">
+                <div class="container position-absolute top-0 start-0 animate__animated animate__fadeInTopLeft animate__delay-3s" style="height: 10%; width: 35%; z-index: 2;" id="alert">
+                    <div class="row h-100">
+                        <div class="col-sm-12 h-100 p-0">
+                            <div class="alert alert-warning alert-dismissible fade show h-100 p-0 m-auto" role="alert" style="background-color: blanchedalmond;">
+                                <h6 class="px-auto" id="contemporary">watch on your desktop to full experience!</h6>
+                                <button type="button" class="btn-close my-4 px-1 py-auto shadow-none" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container position-absolute top-0 start-0 h-100" id="decoration-bar"
+                    style="background-color: blanchedalmond; width: 5%; z-index: 1;">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                    </div>
+                </div>
+                <div class="container position-absolute top-0 start-0 h-100 p-0" id="decoration-bar"
+                    style="background-color: whitesmoke; width: 5%; z-index: 1; margin-left: 11%;">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12 mt-3">
+                            <img src="images/f1 logo.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="row position-absolute bottom-0 mb-5">
+                        <div class="col-sm-12 col-md-12 col-lg-12 mb-5 p-0" id="info-text">
+                            <p class="text-center h5 fw-bold" id="contemporary" style="transform: rotate(270deg);">
+                                contact -</p>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12 mb-5 p-0" id="info-text">
+                            <p class="text-center h5 fw-bold" id="contemporary" style="transform: rotate(270deg);">about
+                                -</p>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12 mb-5 p-0" id="info-text">
+                            <p class="text-center h5 fw-bold" id="contemporary" style="transform: rotate(270deg);">works
+                                -</p>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12 p-1 position-absolute bottom-0"
+                            style="background-color: blanchedalmond; z-index: -1; margin-bottom: 35%; width: 15%; height: 21%; left: 52%; filter: brightness(95%);">
+                        </div>
+                    </div>
+                </div>
+                <div class="container position-absolute top-0 end-0 h-100" id="decoration-bar"
+                    style="background-color: #171717; width: 10%; z-index: 1; margin-right: 7%; display: flex; justify-content: space-around; flex-direction: column;">
+                    <div class="row h-50" style="display: flex; align-items: center;">
+                        <div class="col-sm-12 col-md-12 col-lg-12 h-100"
+                            style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                            <p id="contemporary" class="h2 fw-light fst-italic"
+                                style="color: whitesmoke; transform: rotate(270deg);">...Here</p>
+                        </div>
+                    </div>
+                    <div class="row h-50" style="display: flex; align-items: center;">
+                        <div class="col-sm-12 col-md-12 col-lg-12 h-100"
+                            style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                            <p id="historic" class="text-nowrap h3 fst-italic"
+                                style="color: whitesmoke; transform: rotate(270deg);">The Histroy of <i
+                                    class="ms-1">F</i><i class="me-1" style="color: #ff1801;">1</i>Champions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container position-absolute top-0 end-0 h-100 p-0" id="decoration-bar"
+                    style="z-index: 1; width: 7%;">
+                    <div class="col-sm-12 col-md-12 col-lg-12 h-50 w-100" style="display: flex;
+                    align-items: flex-end;">
+                        <div class="container-fluid" style="background-color: whitesmoke; display: flex;
+                        align-items: center; justify-content: center; height: 15%;">
+                            <i class="material-icons" id="next-button" type="button" data-bs-target="#"
+                                data-bs-slide="next" style="color: #171717;">
+                                arrow_forward_ios
+                            </i>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 h-50 w-100" style="display: flex;
+                    align-items: flex-start;">
+                        <div class="container-fluid" style="background-color: whitesmoke; display: flex;
+                        align-items: center; justify-content: center; height: 15%;">
+                            <i class="material-icons" id="prev-button" type="button" data-bs-target="#"
+                                data-bs-slide="prev" style="color: #171717;">
+                                arrow_back_ios
+                            </i>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12 position-absolute bottom-0 end-0 mb-5"
+                            style="transform: rotate(270deg); left: 40%;">
+                            <p class="text-nowrap">copyright @ 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-12 col-lg-12 h-100 mx-auto no-gutters p-0 pt-0 pb-0 opacity-1">
+                    <img src="images/bck f1 img.jpg" class="img-fluid w-100 h-50" alt=""
+                        style="border: 1px solid #949494" />
+                    <img src="images/bck f1-2 img.jpg" class="img-fluid w-100 h-50" alt=""
+                        style="border: 1px solid #949494" />
+                </div>
+                <div class="container-fluid position-absolute top-0 end-0 d-inline-block" style="height: 7vh">
+                    <div class="row h-100" id="navbar-mobile" style="justify-content: flex-end;">
+                        <div class=" col-sm-6 col-md-6 col-lg-3 w-50 h-100 p3 pe-0 d-inline-block">
+                            <input type="image" class="img-fluid h-100 float-end" src="images/f1 logo.png"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"
+                                style=" background-color: transparent; border-color: transparent; overflow: hidden;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel"
+                    style="height: 10vh; visibility: hidden; display: flex; justify-content: center;"
+                    aria-hidden="true">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasTopLabel" style="overflow: hidden">
+                            <p class="text-center m-0">About me</p>
+                        </h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body" style="display: none"></div>
+                </div>
+                <div class=" container position-absolute  h-80 top-50 start-50 translate-middle">
+                    <div class="row h-25 animate__animated animate__fadeInLeft">
+                        <p class="m-0 h5 text-uppercase text-center" style="color: blanchedalmond; font-weight: 600;"
+                            id="historic">Historic</p>
+                        <div class="col-sm-12 col-md-12 col-lg-6 mx-auto p-0"
+                            style="height: 27vh; display: flex; justify-content: center;" id="classic-data">
+                            
+                        </div>
+                    </div>
+                    <div class="row h-25 animate__animated animate__fadeInRight">
+                        <p class="m-0 h5 pt-1 text-uppercase text-center" style="color: #171717; font-weight: 600;"
+                            id="historic">Contemporary</p>
+                        <div class="col-sm-12 col-md-12 col-lg-6 mx-auto p-0"
+                            style="height: 27vh; display: flex; justify-content: center;" id="contemporary-data">
+                            
+                        </div>
+                    </div>
+                    <div class="row h-25 animate__animated animate__fadeInLeft">
+                        <p class="m-0 h5 pt-1 text-uppercase text-center" style="color: whitesmoke; font-weight: 600;"
+                            id="historic">Modern</p>
+                        <div class="col-sm-12 col-md-12 col-lg-6 mx-auto p-0"
+                            style="height: 27vh; display: flex; justify-content: center;" id="modern-data">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class=" container-fluid position-absolute bottom-0 start-50 translate-middle-x d-inline-block
+            " id="footer">
+                    <div class="row float-end pe-1">
+                        <div class="col-sm-12 col-md-12 col-lg-12 p-0 float-end">
+                            <p class="m-0">copyright @ 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="index.js"></script>
+<script src="app.js"></script>
+
+</html>
