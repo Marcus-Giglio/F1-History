@@ -1,3 +1,12 @@
+$(function(){
+    // Activate Carousel
+    $("#carousel1").carousel();
+    $("#carousel2").carousel();
+    $("#carousel3").carousel();
+});
+
+
+
 let items = document.querySelectorAll('.carousel .carousel-item')
 
 items.forEach((el) => {
@@ -36,15 +45,6 @@ const carousel1 = document.querySelector('#carousel1')
 const carousel2 = document.querySelector('#carousel2')
 const carousel3 = document.querySelector('#carousel3') 
 
-const setIntervalCarousel1 = new bootstrap.Carousel(carousel1, {
-    interval: 0
-})
-const setIntervalCarousel2 = new bootstrap.Carousel(carousel2, {
-    interval: 0
-})
-const setIntervalCarousel3 = new bootstrap.Carousel(carousel3, {
-    interval: 0
-})
 
 
 

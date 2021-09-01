@@ -661,7 +661,7 @@ fetch('https://f1-history-api.vercel.app')
 
 <div class="carousel-inner h-100 w-100" href='#carousel1'>
     <div id="carousel2" class="carousel slide h-100 pointer-event" data-bs-ride="carousel"
-        href='#carousel1'>
+        href='#carousel2'>
         <div class="carousel-item active h-100" href='#carousel1'>
             <div class="col-md-3 w-50 h-100 mx-auto">
                 <div class="card h-100 mx-1"
@@ -721,7 +721,7 @@ fetch('https://f1-history-api.vercel.app')
 
                 `
                 <div id="carousel3" class="carousel slide h-100 w-100 pointer-event" data-bs-ride="carousel"
-                                href='#carousel1'>
+                                href='#carousel3'>
                     
                             
                 <div class="carousel-inner h-100" href='#carousel1'>
