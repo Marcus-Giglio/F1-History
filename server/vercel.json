@@ -3,8 +3,8 @@
     "builds": [{ "src": "server.js", "use": "@now/node-server" }],
     "routes": [
         {
-            "src": "data-drivers",
-            "dest": "data-drivers",
+            "src": "/data-drivers",
+            "dest": "/server.js",
             "methods": ["GET"]
         }
     ]
