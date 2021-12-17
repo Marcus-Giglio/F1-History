@@ -5,7 +5,7 @@ const data = ['1950', '1951', '1952', '1953', '1954', '1955', '1956', '1957', '1
 '2018', '2019', '2020', '2000', '2001', '2002', '2003', '2004',
 '2005', '2006', '2007', '2008', '2009',
 '2010', '2011', '2012', '2013',
-'2014', '2015', '2016', '2017']
+'2014', '2015', '2016', '2017', '2021']
 
 const image = ['https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fit%2Fthumb%2Ff%2Ffc%2FNinoFarina.jpg%2F238px-NinoFarina.jpg&imgrefurl=https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FNino_Farina&tbnid=8eSmQsxjjgYUwM&vet=12ahUKEwjwuvLm3LfyAhXFIhoKHYJiCV0QMygAegUIARCeAQ..i&docid=xmZWH_tOX-A11M&w=238&h=300&q=giuseppe%20farina%20pilota&ved=2ahUKEwjwuvLm3LfyAhXFIhoKHYJiCV0QMygAegUIARCeAQ',
 'https://www.google.com/imgres?imgurl=http%3A%2F%2Ff1.imgci.com%2FPICTURES%2FCMS%2F100%2F123.1.jpg&imgrefurl=http%3A%2F%2Fen.espn.co.uk%2Ff1%2Fmotorsport%2Fdriver%2F456.html&tbnid=Z5AektVjIbqM2M&vet=10CG0QMyj1AWoXChMI8JDfqd238gIVAAAAAB0AAAAAEAM..i&docid=H9nKWvTFSx9rWM&w=160&h=204&q=manuel%20fangio&hl=it&ved=0CG0QMyj1AWoXChMI8JDfqd238gIVAAAAAB0AAAAAEAM',
@@ -77,7 +77,8 @@ const image = ['https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikime
 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Ff%2Ff1%2FLewis_Hamilton_2014_China.jpg&imgrefurl=https%3A%2F%2Fit.m.wikipedia.org%2Fwiki%2FFile%3ALewis_Hamilton_2014_China.jpg&tbnid=qBBqgonWwcGLhM&vet=12ahUKEwjc8_r7p8nyAhUckaQKHc9_AT4QMygGegUIARDAAQ..i&docid=FIN90JGLtfJMKM&w=2827&h=3399&q=lewis%20hamilton%202014&hl=it&ved=2ahUKEwjc8_r7p8nyAhUckaQKHc9_AT4QMygGegUIARDAAQ',
 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fw7.pngwing.com%2Fpngs%2F443%2F757%2Fpng-transparent-man-wearing-white-and-black-jacket-standing-lewis-hamilton-abu-dhabi-grand-prix-2012-fia-formula-one-world-championship-british-grand-prix-2015-fia-formula-one-world-championship.png&imgrefurl=https%3A%2F%2Fwww.pngwing.com%2Fen%2Ffree-png-bhwgp&tbnid=52LcrJ6wukkeNM&vet=12ahUKEwihv8aCqMnyAhULtqQKHct6DDYQMyhSegQIARB_..i&docid=0cnKPX0YDs1pIM&w=920&h=1086&q=lewis%20hamilton%202015&hl=it&ved=2ahUKEwihv8aCqMnyAhULtqQKHct6DDYQMyhSegQIARB_',
 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.formula1news.it%2Fstoria_image%2FNico_Rosberg_2016.jpg&imgrefurl=https%3A%2F%2Fwww.formula1news.it%2Fstoria%2Fstoria212005.htm&tbnid=LEgsuOh8is1jQM&vet=10CDUQMyjdAWoXChMIqNum3ajJ8gIVAAAAAB0AAAAAEAM..i&docid=DjCNYwUEamPtNM&w=425&h=567&q=nico%20rosberg%202016&hl=it&ved=0CDUQMyjdAWoXChMIqNum3ajJ8gIVAAAAAB0AAAAAEAM',
-'https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.images.express.co.uk%2Fimg%2Fdynamic%2F73%2F590x%2FAbu-Dhabi-884653.jpg&imgrefurl=https%3A%2F%2Fwww.express.co.uk%2Fsport%2Ff1-autosport%2F884653%2FAbu-Dhabi-Grand-Prix-2017-Lewis-Hamilton-Valtteri-Bottas-Sebastian-Vettel&tbnid=_5_YtcJWEWz1EM&vet=10CDkQMyh7ahcKEwiQn6OrqcnyAhUAAAAAHQAAAAAQAg..i&docid=gbDbqxeNUG8c-M&w=590&h=350&q=lewis%20hamilton%202017&hl=it&ved=0CDkQMyh7ahcKEwiQn6OrqcnyAhUAAAAAHQAAAAAQAg']
+'https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.images.express.co.uk%2Fimg%2Fdynamic%2F73%2F590x%2FAbu-Dhabi-884653.jpg&imgrefurl=https%3A%2F%2Fwww.express.co.uk%2Fsport%2Ff1-autosport%2F884653%2FAbu-Dhabi-Grand-Prix-2017-Lewis-Hamilton-Valtteri-Bottas-Sebastian-Vettel&tbnid=_5_YtcJWEWz1EM&vet=10CDkQMyh7ahcKEwiQn6OrqcnyAhUAAAAAHQAAAAAQAg..i&docid=gbDbqxeNUG8c-M&w=590&h=350&q=lewis%20hamilton%202017&hl=it&ved=0CDkQMyh7ahcKEwiQn6OrqcnyAhUAAAAAHQAAAAAQAg',
+'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.marca.com%2Fen%2Ff1%2F2021%2F12%2F12%2F61b63594268e3eb4178b45c2.html&psig=AOvVaw3799MtotC3hHnpH_3WIO0r&ust=1639819286062000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMC02IHB6vQCFQAAAAAdAAAAABAD']
 
 const driver = ['Giuseppe Farina', 'Juan Manuel Fangio', 'Alberto Ascari', 'Alberto Ascari', 'Juan Manuel Fangio', 'Juan Manuel Fangio', 'Juan Manuel Fangio', 'Juan Manuel Fangio', 'Mike Hawthorn', 'Jack Brabham', 'Jack Brabham', 'Phil Hill', 'Graham Hill', 'Jim Clark',
 'John Surtees', 'Jim Clark', 'Jack Brabham', 'Denny Hulme', 'Graham Hill', 'Jackie Stewart', 'Joechen Rindt', 'Jackie Stewart', 'Emerson Fittipaldi',
@@ -87,7 +88,7 @@ const driver = ['Giuseppe Farina', 'Juan Manuel Fangio', 'Alberto Ascari', 'Albe
 'Mika Hakkinen', 'Mika Hakkinen', 'Lewis Hamilton', 'Lewis Hamilton', 'Lewis Hamilton', 'Michael Schumacher', 'Michael Schumacher', 'Michael Schumacher', 'Michael Schumacher', 'Michael Schumacher',
 'Fernando Alonso', 'Fernando Alonso', 'Kimi Raikkonen', 'Lewis Hamilton', 'Jenson Button',
 'Sebastian Vettel', 'Sebastian Vettel', 'Sebastian Vettel', 'Sebastian Vettel',
-'Lewis Hamilton', 'Lewis Hamilton', 'Nico Rosberg', 'Lewis Hamilton']
+'Lewis Hamilton', 'Lewis Hamilton', 'Nico Rosberg', 'Lewis Hamilton', 'Max Verstappen']
 
 const team = ['Alfa Romeo', 'Alfa Romeo', 'Ferrari', 'Ferrari', 'Maserati/Mercedes', 'Mercedes', 'Ferrari', 'Maserati', 'Ferrari', 'Cooper', 'Cooper', 'Ferrari', 'BRM', 'Lotus',
 'Ferrari', 'Lotus', 'Brabham', 'Brabham', 'Lotus', 'Matra', 'Lotus', 'Tyrrell', 'Lotus', 'Tyrrell', 'McLaren', 'Ferrari', 'McLaren', 'Ferrari',
@@ -95,7 +96,7 @@ const team = ['Alfa Romeo', 'Alfa Romeo', 'Ferrari', 'Ferrari', 'Maserati/Merced
 'McLaren', 'McLaren', 'Williams', 'Williams', 'Benetton', 'Benetton', 'Williams', 'Williams', 'McLaren', 'McLaren', 'Mercedes', 'Mercedes', 'Mercedes', 'Ferrari', 'Ferrari', 'Ferrari', 'Ferrari', 'Ferrari',
 'Renault', 'Renault', 'Ferrari', 'McLaren', 'Brawn',
 'Red Bull', 'Red Bull', 'Red Bull', 'Red Bull',
-'Mercedes', 'Mercedes', 'Mercedes', 'Mercedes']
+'Mercedes', 'Mercedes', 'Mercedes', 'Mercedes', 'Red Bull']
 
 const info = ['https://it.wikipedia.org/wiki/Nino_Farina', 'https://it.wikipedia.org/wiki/Juan_Manuel_Fangio', 'https://it.wikipedia.org/wiki/Alberto_Ascari', 'https://it.wikipedia.org/wiki/Alberto_Ascari', 'https://it.wikipedia.org/wiki/Juan_Manuel_Fangio', 'https://it.wikipedia.org/wiki/Juan_Manuel_Fangio', 'https://it.wikipedia.org/wiki/Juan_Manuel_Fangio', 'https://it.wikipedia.org/wiki/Juan_Manuel_Fangio',
 'https://it.wikipedia.org/wiki/Mike_Hawthorn',
@@ -160,7 +161,8 @@ const info = ['https://it.wikipedia.org/wiki/Nino_Farina', 'https://it.wikipedia
 'https://it.wikipedia.org/wiki/Lewis_Hamilton',
 'https://it.wikipedia.org/wiki/Lewis_Hamilton',
 'https://it.wikipedia.org/wiki/Nico_Rosberg',
-'https://it.wikipedia.org/wiki/Lewis_Hamilton'
+'https://it.wikipedia.org/wiki/Lewis_Hamilton',
+'https://it.wikipedia.org/wiki/Max_Verstappen'
 ]
 
 const dataDrivers = () =>{

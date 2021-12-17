@@ -1,3 +1,4 @@
+onload(
 fetch('https://f1-history-api.vercel.app')
     .then((res) => {
         return (res.json())
@@ -646,7 +647,7 @@ fetch('https://f1-history-api.vercel.app')
 
         `
             + fetch
-    })
+    }),
 
     fetch('https://f1-history-api.vercel.app')
     .then((res) => {
@@ -701,12 +702,25 @@ fetch('https://f1-history-api.vercel.app')
                         ${res.team[52]}</p>
                     </a>
                 </div>
-            </div> 
+            </div>
+            <div class="col-md-3 w-50 h-100 mx-auto">
+                <div class="card h-100 mx-1"
+                    style="background-color: #121f45; border-radius: 0.55rem;">
+                    <p class="card-text text-center h5 m-0" id="contemporary">${res.data[71]}</p>
+                    <img src="images/contemporary/Verstappen.png"
+                        class="card-img-top w-100 h-50 img-fluid" alt="...">
+                    <a href="${res.info[71]}" target="_blank">
+                        <p class="card-text text-center h4 mt-sm-3 mt-2" id="contemporary">${res.driver[71]}
+                        <br>
+                        ${res.team[71]}</p>
+                    </a>
+                </div>
+            </div>  
         </div> 
     </div>
 </div>
             ` + fetch
-    })
+    }),
     
             fetch('https://f1-history-api.vercel.app')
             .then((res) => {
@@ -960,6 +974,7 @@ fetch('https://f1-history-api.vercel.app')
                     + fetch
     })
     
+)
 
     
 
